@@ -55,7 +55,7 @@ def demo_chatbot():
         model_id='meta.llama3-70b-instruct-v1:0',
         model_kwargs={
             "max_gen_len": 2048,
-            "temperature": 0.1,
+            "temperature": 0.3,
             "top_p": 0.9
         }
     )
